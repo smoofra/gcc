@@ -33,8 +33,8 @@ Foundation, Inc., 51 Franklin Street - Fifth Floor, Boston, MA 02110-1301, USA. 
    wrappers around __attribute__.  Also, __extension__ will be #defined
    to nothing if it doesn't work.  See below.  */
 
-#ifndef	_ANSIDECL_H
-#define _ANSIDECL_H	1
+#ifndef	ANSIDECL_H
+#define ANSIDECL_H	1
 
 #ifdef __cplusplus
 extern "C" {
